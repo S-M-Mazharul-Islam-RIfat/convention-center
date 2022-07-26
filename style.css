@@ -41,6 +41,8 @@ body {
     --card-btn-font-and-card-hover-color: #3F87F5;
     --client-review-font-color: #6C6C6C;
     --client-profession-font-color: #747474;
+    --accordion-header-font-color: #383838;
+    --accordion-info-font-color: #7E848C;
     --white: #FFFFFF;
 }
 
@@ -235,7 +237,12 @@ li {
 
 #our-package .container .card-wrapper:hover .card {
     background-color: var(--card-btn-font-and-card-hover-color);
-    transform: scale(1.1);
+}
+
+@media screen and (min-width:768px) {
+    #our-package .container .card-wrapper:hover .card {
+        transform: scale(1.1);
+    }
 }
 
 #our-package .container .card-wrapper:hover .card__header {
@@ -285,3 +292,21 @@ li {
 }
 
 /* Clients Review Section End */
+
+/*  Clients Question Section Start */
+#clients-question .container .accordion-item .accordion-header button {
+    color: var(--accordion-header-font-color);
+    font-weight: 500;
+    font-size: 22px;
+    /* font-size: 50px; */
+}
+
+#clients-question .container .accordion-item .accordion-body {
+    color: var(--accordion-info-font-color);
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+
+/*  Clients Question Section End */
