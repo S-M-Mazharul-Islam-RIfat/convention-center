@@ -54,6 +54,14 @@ li {
     list-style-type: none;
 }
 
+.mt-7 {
+    margin-top: 7%;
+}
+
+.mt-11 {
+    margin-top: 11%;
+}
+
 .mt-100 {
     margin-top: 100px;
 }
@@ -66,20 +74,6 @@ li {
     padding-bottom: 10px;
 }
 
-/*  */
-.pt-50 {
-    padding-top: 50px;
-}
-
-.pb-50 {
-    padding-bottom: 250px;
-}
-
-.he-200 {
-    height: 500px;
-}
-
-/*  */
 .mt-neg-10 {
     margin-top: -10px;
 }
@@ -316,6 +310,16 @@ li {
     text-align: justify;
 }
 
-
-
 /*  Clients Question Section End */
+
+/* Footer Section Start */
+#footer .footer-wrapper {
+    background-color: #0B0D17;
+    height: 280px;
+}
+
+#footer .footer-wrapper h5 {
+    color: #D9DBE1;
+}
+
+/* Footer Section End */
