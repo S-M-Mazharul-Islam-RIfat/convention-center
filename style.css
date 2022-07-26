@@ -1,0 +1,287 @@
+.bR {
+    border: 1px solid red;
+}
+
+.bG {
+    border: 1px solid green;
+}
+
+.bB {
+    border: 1px solid blue;
+}
+
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Utility Classes Section Start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html {
+    font-size: 62.5%;
+} */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --nav-text-color: #3E3E3E;
+    --primary-font-color: #0A0826;
+    --secondary-font-color: #6C6C6C;
+    --card-primary-color: #231D4F;
+    --card-secondary-color: #848199;
+    --card-check-mark-bg-color: #EEECF9;
+    --card-check-mark-font-color: #5243C2;
+    --card-btn-bg-color: #FEF5FB;
+    --card-btn-font-and-card-hover-color: #3F87F5;
+    --client-review-font-color: #6C6C6C;
+    --client-profession-font-color: #747474;
+    --white: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+/*  */
+.pt-50 {
+    padding-top: 50px;
+}
+
+.pb-50 {
+    padding-bottom: 250px;
+}
+
+.he-200 {
+    height: 500px;
+}
+
+/*  */
+.mt-neg-10 {
+    margin-top: -10px;
+}
+
+.section-header {
+    color: var(--primary-font-color);
+    font-size: 2.2em;
+    font-weight: 700;
+}
+
+/* Utility Classes Section End */
+
+/* Navbar Section Start */
+#header .container .nav-header-text {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--nav-text-color);
+}
+
+#header .container ul li a {
+    font-size: 16px;
+    font-weight: 700;
+    font-weight: 500;
+    color: var(--nav-text-color);
+}
+
+/* Navbar Section End */
+
+/* Carousel Section Start */
+
+/* Carousel Section End */
+
+/* Precious Moment Section Start */
+#precious-moment .container .image-wrapper img {
+    width: 100%;
+}
+
+#precious-moment .container .info-wrapper {
+    padding-top: 85px;
+    font-size: 10px;
+}
+
+#precious-moment .container .info-wrapper h2 {
+    font-size: 3.5em;
+    font-weight: 700;
+    color: var(--main-font-color);
+}
+
+#precious-moment .container .info-wrapper p {
+    font-size: 1.6em;
+    font-weight: 700;
+    color: var(--secondary-font-color);
+}
+
+#precious-moment .container .info-wrapper button {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 1.5em;
+    padding: 8px 16px;
+}
+
+#precious-moment .container .info-wrapper button i {
+    color: var(--white);
+    font-weight: 600;
+    transition: padding 0.3s ease-in-out;
+    padding-left: 4px;
+}
+
+#precious-moment .container .info-wrapper button:hover i {
+    padding-left: 12px;
+}
+
+/* Precious Moment Section End */
+
+/* Our Package Section Start */
+#our-package .container .card-wrapper .card {
+    transition: all 0.4s ease-in-out;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+#our-package .container .card {
+    font-size: 10px;
+}
+
+#our-package .container .card .card__header {
+    border-bottom: 0;
+    font-size: 3.6em;
+    font-weight: 700;
+    padding: 8px 14px;
+    color: var(--card-primary-color);
+}
+
+#our-package .container .card .card-body .card-title {
+    font-size: 2.8em;
+    font-weight: 700;
+    color: var(--card-primary-color);
+}
+
+#our-package .container .card .card-body .card-text {
+    font-size: 1.5em;
+    color: var(--card-secondary-color);
+    font-weight: 400;
+}
+
+#our-package .container .card .card-body .package-details ul {
+    padding-left: 0;
+}
+
+#our-package .container .card .card-body .package-details li {
+    display: flex;
+}
+
+
+#our-package .container .card .card-body .package-details li span {
+    font-size: 1.4em;
+    color: var(--card-secondary-color);
+}
+
+#our-package .container .card .card-body .package-details li .icon {
+    padding-right: 10px;
+}
+
+#our-package .container .card .card-body .package-details li .icon i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: var(--card-check-mark-bg-color);
+    color: var(--card-check-mark-font-color);
+}
+
+#our-package .container .card .card-body .package-details .btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#our-package .container .card .card-body .package-details .btn-wrapper button {
+    width: 95%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--card-btn-bg-color);
+}
+
+#our-package .container .card .card-body .package-details .btn-wrapper button a {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: var(--card-btn-font-and-card-hover-color);
+
+}
+
+#our-package .container .card-wrapper:hover .card {
+    background-color: var(--card-btn-font-and-card-hover-color);
+    transform: scale(1.1);
+}
+
+#our-package .container .card-wrapper:hover .card__header {
+    color: var(--white);
+}
+
+#our-package .container .card-wrapper:hover .card-title {
+    color: var(--white);
+}
+
+#our-package .container .card-wrapper:hover .card-text {
+    color: var(--white);
+}
+
+#our-package .container .card-wrapper:hover .card .card-body .package-details li span {
+    color: var(--white);
+}
+
+/* Our Package Section End */
+
+/* Clients Review Section Start */
+#clients-review .container .card {
+    border: none;
+    background-color: var(--white);
+    padding: 10px 25px 20px 25px;
+    text-align: center;
+}
+
+#clients-review .container .card .card-body .card-text {
+    color: var(--client-review-font-color);
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+#clients-review .container .card .client-info .client-name {
+    color: var(--primary-font-color);
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#clients-review .container .card .client-info .client-profession {
+    color: var(--client-profession-font-color);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Clients Review Section End */
