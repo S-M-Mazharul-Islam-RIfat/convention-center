@@ -161,9 +161,18 @@ li {
     padding: 15px;
 }
 
+
+#our-package .container .card-wrapper .hot-badge {
+    left: 87%;
+    top: 0;
+    font-size: .7rem;
+    background-color: #FF4E4E;
+}
+
 #our-package .container .card {
     font-size: 10px;
 }
+
 
 #our-package .container .card .card__header {
     border-bottom: 0;
