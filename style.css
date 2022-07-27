@@ -21,9 +21,6 @@
     box-sizing: border-box;
 }
 
-/* html {
-    font-size: 62.5%;
-} */
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -111,6 +108,49 @@ li {
 /* Navbar Section End */
 
 /* Carousel Section Start */
+#main .carousel-inner {
+    font-size: 10px;
+}
+
+#main .carousel-inner .carousel-item .carousel-item-image img {
+    /* min-height: 350px;
+    max-height: 700px; */
+    /* min-height: 300px; */
+    height: 700px;
+    object-fit: cover;
+}
+
+#main .carousel-inner .carousel-item h5 {
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 4.8em;
+    font-weight: 700;
+}
+
+#main .carousel-inner .carousel-item p {
+    font-size: 1.6em;
+    font-weight: 300;
+    width: 40%;
+    padding: 5px 0 15px 0;
+    margin: 0 auto;
+
+}
+
+#main .carousel-inner .carousel-item .book-now-btn {
+    padding-bottom: 20px;
+}
+
+#main .carousel-inner .carousel-item .book-now-btn button {
+    width: 18%;
+    padding: 9px 0;
+    border: none;
+    border-radius: 7px;
+}
+
+#main .carousel-inner .carousel-item .book-now-btn button a {
+    font-size: 1.6em;
+    font-weight: 700;
+}
 
 /* Carousel Section End */
 
@@ -307,7 +347,6 @@ li {
     color: var(--accordion-header-font-color);
     font-weight: 500;
     font-size: 22px;
-    /* font-size: 50px; */
 }
 
 #clients-question .container .accordion-item .accordion-body {
